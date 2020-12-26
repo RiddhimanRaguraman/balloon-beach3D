@@ -13,7 +13,7 @@ public class App_Initialize : MonoBehaviour {
     public GameObject adButton;
     public GameObject restartButton;
     public GameObject player;
-    private bool hasGameStarted = false;
+    private bool hasGameStarted = true;
     private bool hasSeenRewardedAd = false;
 
     void Awake() {
